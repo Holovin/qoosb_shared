@@ -1,6 +1,6 @@
-import { EventCommonInterface } from '../helpers/eventCommon.interface';
+import { CommonEventInterface } from './common.event.interface';
 
-export interface QuestionStartInterface extends EventCommonInterface {
+export interface QuestionStartInterface extends CommonEventInterface {
     question: {
         id: number;
         text: string;

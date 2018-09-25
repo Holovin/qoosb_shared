@@ -1,5 +1,5 @@
-import { GameStatus } from '../../enums';
-import { LeaderboardInterface } from '../helpers/leaderboard.interface';
+import { GameStatus } from '../../../enums';
+import { LeaderboardInterface } from '../helpers';
 
 export interface GetStartInterface {
     response: {

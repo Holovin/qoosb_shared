@@ -1,4 +1,4 @@
-export interface WinnerUserInterface {
+export interface WinnerInterface {
     name: string;
     photo_url: string;
 }

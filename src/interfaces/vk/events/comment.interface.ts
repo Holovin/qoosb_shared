@@ -1,7 +1,7 @@
-import { EventCommonInterface } from '../helpers/eventCommon.interface';
-import { UserInterface } from '../helpers/user.interface';
+import { CommonEventInterface } from './common.event.interface';
+import { UserInterface } from '../helpers';
 
-export interface CommentInterface extends EventCommonInterface {
+export interface CommentInterface extends CommonEventInterface {
     comment: {
         id: number;
         from_id: number;

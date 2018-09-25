@@ -1,5 +1,5 @@
 import { EventType } from '../../../enums';
-import { WinnerInterface } from '../helpers/winner.interface';
+import { WinnerInterface } from '../helpers';
 
 export interface GameWinnersInterface {
     type: EventType.WINNERS;
