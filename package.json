@@ -16,15 +16,15 @@
     "url": "https://github.com/Holovin/qoosb_shared/issues"
   },
   "homepage": "https://github.com/Holovin/qoosb_shared#readme",
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-consistent-codestyle": "^1.13.3",
     "typescript": "^3.0.3"
   },
-  "dependencies": {}
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
 }
