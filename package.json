@@ -1,0 +1,30 @@
+{
+  "name": "qoosb_shared",
+  "version": "0.0.1",
+  "description": "Shared components for qoosb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holovin/qoosb_shared.git"
+  },
+  "author": "Alexander Holovin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Holovin/qoosb_shared/issues"
+  },
+  "homepage": "https://github.com/Holovin/qoosb_shared#readme",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-consistent-codestyle": "^1.13.3",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {}
+}
