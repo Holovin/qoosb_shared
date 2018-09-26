@@ -1,10 +1,12 @@
 {
   "name": "qoosb_shared",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared components for qoosb",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",

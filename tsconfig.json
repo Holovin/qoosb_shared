@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "declaration": false,
+    "declaration": true,
     "module": "commonjs",
     "esModuleInterop": true,
     "target": "es6",
@@ -8,7 +8,6 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
     "typeRoots": [
       "node_modules/@types"
     ],
