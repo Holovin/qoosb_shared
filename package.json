@@ -1,6 +1,6 @@
 {
   "name": "qoosb_shared",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shared components for qoosb",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
